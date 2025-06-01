@@ -18,7 +18,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"Model accuracy: {accuracy:.2f}")
 
 #save the model
-with open('iris_model.pkl', 'wb') as f:
+with open('models/iris_model.pkl', 'wb') as f:
     pickle.dump(model, f)
 
 print("Model saved as iris_model.pkl")
